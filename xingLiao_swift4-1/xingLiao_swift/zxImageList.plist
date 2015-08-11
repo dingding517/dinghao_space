@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>brainy-smurf-icon</string>
+		<key>imageID</key>
+		<integer>0</integer>
+		<key>description</key>
+		<string>brainy-smurf-icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>clumsy-smurf-icon</string>
+		<key>imageID</key>
+		<integer>1</integer>
+		<key>description</key>
+		<string>clumsy-smurf-icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>grouchy-smurf-icon</string>
+		<key>imageID</key>
+		<integer>2</integer>
+		<key>description</key>
+		<string>grouchy-smurf-icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>gutsy-smurf-icon copy</string>
+		<key>imageID</key>
+		<integer>3</integer>
+		<key>description</key>
+		<string>gutsy-smurf-icon copy description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>hackus-smurf-icon</string>
+		<key>imageID</key>
+		<integer>4</integer>
+		<key>description</key>
+		<string>hackus-smurf-icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>papa-smurf-Icon</string>
+		<key>imageID</key>
+		<integer>5</integer>
+		<key>description</key>
+		<string>papa-smurf-Icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>smurfette-icon</string>
+		<key>imageID</key>
+		<integer>6</integer>
+		<key>description</key>
+		<string>smurfette-icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>vanity-smurf-icon</string>
+		<key>imageID</key>
+		<integer>7</integer>
+		<key>description</key>
+		<string>vanity-smurf-icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>vexy-smurf_icon</string>
+		<key>imageID</key>
+		<integer>8</integer>
+		<key>description</key>
+		<string>vexy-smurf_icon description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-01</string>
+		<key>imageID</key>
+		<integer>9</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-01 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-02</string>
+		<key>imageID</key>
+		<integer>10</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-02 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-03</string>
+		<key>imageID</key>
+		<integer>11</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-03 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-04</string>
+		<key>imageID</key>
+		<integer>12</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-04 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-05</string>
+		<key>imageID</key>
+		<integer>13</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-05 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-06</string>
+		<key>imageID</key>
+		<integer>14</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-06 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-07</string>
+		<key>imageID</key>
+		<integer>15</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-07 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-08</string>
+		<key>imageID</key>
+		<integer>16</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-08 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-09</string>
+		<key>imageID</key>
+		<integer>17</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-09 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-10</string>
+		<key>imageID</key>
+		<integer>18</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-10 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-11</string>
+		<key>imageID</key>
+		<integer>19</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-11 description</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>yuan-christmas-2014-12</string>
+		<key>imageID</key>
+		<integer>20</integer>
+		<key>description</key>
+		<string>yuan-christmas-2014-12 description</string>
+	</dict>
+</array>
+</plist>
