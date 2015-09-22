@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>section0</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>新消息提醒</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>勿扰模式</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>聊天</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>隐私</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>通用</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>账号与安全</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>section1</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>关于微信</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>退出</string>
+			<key>image</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

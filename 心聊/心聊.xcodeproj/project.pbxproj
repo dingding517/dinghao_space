@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		684D390C1B7200AA0034EB1C /* wo_.plist in Resources */ = {isa = PBXBuildFile; fileRef = 684D390B1B7200AA0034EB1C /* wo_.plist */; };
+		C66C01F01B72531300B46638 /* ShezhiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C01EF1B72531300B46638 /* ShezhiViewController.swift */; };
+		C66C01F21B7253BE00B46638 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = C66C01F11B7253BE00B46638 /* Property List.plist */; };
+		C66C01F41B725BE400B46638 /* GuanYuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C01F31B725BE400B46638 /* GuanYuViewController.swift */; };
+		C66C01F61B725BFD00B46638 /* GuanYu.plist in Resources */ = {isa = PBXBuildFile; fileRef = C66C01F51B725BFD00B46638 /* GuanYu.plist */; };
+		C66C02411B73681200B46638 /* team_dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = C66C02401B73681200B46638 /* team_dictionary.plist */; };
+		C6B015931B705494005D43CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015921B705494005D43CD /* AppDelegate.swift */; };
+		C6B015951B705494005D43CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015941B705494005D43CD /* ViewController.swift */; };
+		C6B015981B705494005D43CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B015961B705494005D43CD /* Main.storyboard */; };
+		C6B0159A1B705494005D43CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B015991B705494005D43CD /* Images.xcassets */; };
+		C6B0159D1B705494005D43CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B0159B1B705494005D43CD /* LaunchScreen.xib */; };
+		C6B015A91B705494005D43CD /* xingLiao_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015A81B705494005D43CD /* xingLiao_swiftTests.swift */; };
+		C6B015B31B70897A005D43CD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015B21B70897A005D43CD /* RegisterViewController.swift */; };
+		C6B015B51B70D14B005D43CD /* zxImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6B015B41B70D14B005D43CD /* zxImageList.plist */; };
+		C6B015C11B70D99E005D43CD /* WoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015C01B70D99E005D43CD /* WoViewController.swift */; };
+		C6B015C31B70E116005D43CD /* WeiXinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015C21B70E116005D43CD /* WeiXinViewController.swift */; };
+		C6B015C51B70E146005D43CD /* TongXunLuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015C41B70E146005D43CD /* TongXunLuViewController.swift */; };
+		C6B015C71B70E157005D43CD /* FaXianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B015C61B70E157005D43CD /* FaXianViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B015A31B705494005D43CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B015851B705494005D43CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B0158C1B705494005D43CD;
+			remoteInfo = xingLiao_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		684D390B1B7200AA0034EB1C /* wo_.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wo_.plist; sourceTree = "<group>"; };
+		C66C01EF1B72531300B46638 /* ShezhiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShezhiViewController.swift; sourceTree = "<group>"; };
+		C66C01F11B7253BE00B46638 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		C66C01F31B725BE400B46638 /* GuanYuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuanYuViewController.swift; sourceTree = "<group>"; };
+		C66C01F51B725BFD00B46638 /* GuanYu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GuanYu.plist; sourceTree = "<group>"; };
+		C66C02401B73681200B46638 /* team_dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = team_dictionary.plist; sourceTree = "<group>"; };
+		C6B0158D1B705494005D43CD /* 心聊.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "心聊.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B015911B705494005D43CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B015921B705494005D43CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6B015941B705494005D43CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B015971B705494005D43CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B015991B705494005D43CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6B0159C1B705494005D43CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C6B015A21B705494005D43CD /* 心聊.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "心聊.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B015A71B705494005D43CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B015A81B705494005D43CD /* xingLiao_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xingLiao_swiftTests.swift; sourceTree = "<group>"; };
+		C6B015B21B70897A005D43CD /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C6B015B41B70D14B005D43CD /* zxImageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zxImageList.plist; sourceTree = "<group>"; };
+		C6B015C01B70D99E005D43CD /* WoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoViewController.swift; sourceTree = "<group>"; };
+		C6B015C21B70E116005D43CD /* WeiXinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiXinViewController.swift; sourceTree = "<group>"; };
+		C6B015C41B70E146005D43CD /* TongXunLuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongXunLuViewController.swift; sourceTree = "<group>"; };
+		C6B015C61B70E157005D43CD /* FaXianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaXianViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B0158A1B705494005D43CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B0159F1B705494005D43CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B015841B705494005D43CD = {
+			isa = PBXGroup;
+			children = (
+				C6B0158F1B705494005D43CD /* xingLiao_swift */,
+				C6B015A51B705494005D43CD /* xingLiao_swiftTests */,
+				C6B0158E1B705494005D43CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B0158E1B705494005D43CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0158D1B705494005D43CD /* 心聊.app */,
+				C6B015A21B705494005D43CD /* 心聊.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B0158F1B705494005D43CD /* xingLiao_swift */ = {
+			isa = PBXGroup;
+			children = (
+				C6B015941B705494005D43CD /* ViewController.swift */,
+				C6B015961B705494005D43CD /* Main.storyboard */,
+				C6B015B21B70897A005D43CD /* RegisterViewController.swift */,
+				C6B015C21B70E116005D43CD /* WeiXinViewController.swift */,
+				C6B015C41B70E146005D43CD /* TongXunLuViewController.swift */,
+				C6B015C61B70E157005D43CD /* FaXianViewController.swift */,
+				C6B015C01B70D99E005D43CD /* WoViewController.swift */,
+				C66C01EF1B72531300B46638 /* ShezhiViewController.swift */,
+				C66C01F31B725BE400B46638 /* GuanYuViewController.swift */,
+				C66C02401B73681200B46638 /* team_dictionary.plist */,
+				684D390B1B7200AA0034EB1C /* wo_.plist */,
+				C66C01F11B7253BE00B46638 /* Property List.plist */,
+				C66C01F51B725BFD00B46638 /* GuanYu.plist */,
+				C6B015B41B70D14B005D43CD /* zxImageList.plist */,
+				C6B015901B705494005D43CD /* Supporting Files */,
+			);
+			path = xingLiao_swift;
+			sourceTree = "<group>";
+		};
+		C6B015901B705494005D43CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B015991B705494005D43CD /* Images.xcassets */,
+				C6B0159B1B705494005D43CD /* LaunchScreen.xib */,
+				C6B015911B705494005D43CD /* Info.plist */,
+				C6B015921B705494005D43CD /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B015A51B705494005D43CD /* xingLiao_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B015A81B705494005D43CD /* xingLiao_swiftTests.swift */,
+				C6B015A61B705494005D43CD /* Supporting Files */,
+			);
+			path = xingLiao_swiftTests;
+			sourceTree = "<group>";
+		};
+		C6B015A61B705494005D43CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B015A71B705494005D43CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B0158C1B705494005D43CD /* 心聊 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B015AC1B705494005D43CD /* Build configuration list for PBXNativeTarget "心聊" */;
+			buildPhases = (
+				C6B015891B705494005D43CD /* Sources */,
+				C6B0158A1B705494005D43CD /* Frameworks */,
+				C6B0158B1B705494005D43CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "心聊";
+			productName = xingLiao_swift;
+			productReference = C6B0158D1B705494005D43CD /* 心聊.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B015A11B705494005D43CD /* 心聊Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B015AF1B705494005D43CD /* Build configuration list for PBXNativeTarget "心聊Tests" */;
+			buildPhases = (
+				C6B0159E1B705494005D43CD /* Sources */,
+				C6B0159F1B705494005D43CD /* Frameworks */,
+				C6B015A01B705494005D43CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B015A41B705494005D43CD /* PBXTargetDependency */,
+			);
+			name = "心聊Tests";
+			productName = xingLiao_swiftTests;
+			productReference = C6B015A21B705494005D43CD /* 心聊.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B015851B705494005D43CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = dinghao;
+				TargetAttributes = {
+					C6B0158C1B705494005D43CD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C6B015A11B705494005D43CD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C6B0158C1B705494005D43CD;
+					};
+				};
+			};
+			buildConfigurationList = C6B015881B705494005D43CD /* Build configuration list for PBXProject "心聊" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B015841B705494005D43CD;
+			productRefGroup = C6B0158E1B705494005D43CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B0158C1B705494005D43CD /* 心聊 */,
+				C6B015A11B705494005D43CD /* 心聊Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B0158B1B705494005D43CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66C01F61B725BFD00B46638 /* GuanYu.plist in Resources */,
+				C66C01F21B7253BE00B46638 /* Property List.plist in Resources */,
+				684D390C1B7200AA0034EB1C /* wo_.plist in Resources */,
+				C66C02411B73681200B46638 /* team_dictionary.plist in Resources */,
+				C6B015B51B70D14B005D43CD /* zxImageList.plist in Resources */,
+				C6B015981B705494005D43CD /* Main.storyboard in Resources */,
+				C6B0159D1B705494005D43CD /* LaunchScreen.xib in Resources */,
+				C6B0159A1B705494005D43CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B015A01B705494005D43CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B015891B705494005D43CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B015B31B70897A005D43CD /* RegisterViewController.swift in Sources */,
+				C6B015C51B70E146005D43CD /* TongXunLuViewController.swift in Sources */,
+				C6B015C11B70D99E005D43CD /* WoViewController.swift in Sources */,
+				C66C01F41B725BE400B46638 /* GuanYuViewController.swift in Sources */,
+				C6B015951B705494005D43CD /* ViewController.swift in Sources */,
+				C6B015931B705494005D43CD /* AppDelegate.swift in Sources */,
+				C6B015C71B70E157005D43CD /* FaXianViewController.swift in Sources */,
+				C6B015C31B70E116005D43CD /* WeiXinViewController.swift in Sources */,
+				C66C01F01B72531300B46638 /* ShezhiViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B0159E1B705494005D43CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B015A91B705494005D43CD /* xingLiao_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B015A41B705494005D43CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B0158C1B705494005D43CD /* 心聊 */;
+			targetProxy = C6B015A31B705494005D43CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B015961B705494005D43CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B015971B705494005D43CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B0159B1B705494005D43CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B0159C1B705494005D43CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B015AA1B705494005D43CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6B015AB1B705494005D43CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B015AD1B705494005D43CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = xingLiao_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dinghao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "心聊";
+			};
+			name = Debug;
+		};
+		C6B015AE1B705494005D43CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = xingLiao_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dinghao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "心聊";
+			};
+			name = Release;
+		};
+		C6B015B01B705494005D43CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xingLiao_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dinghao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "心聊";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/心聊.app/心聊";
+			};
+			name = Debug;
+		};
+		C6B015B11B705494005D43CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = xingLiao_swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dinghao.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "心聊";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/心聊.app/心聊";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B015881B705494005D43CD /* Build configuration list for PBXProject "心聊" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B015AA1B705494005D43CD /* Debug */,
+				C6B015AB1B705494005D43CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B015AC1B705494005D43CD /* Build configuration list for PBXNativeTarget "心聊" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B015AD1B705494005D43CD /* Debug */,
+				C6B015AE1B705494005D43CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B015AF1B705494005D43CD /* Build configuration list for PBXNativeTarget "心聊Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B015B01B705494005D43CD /* Debug */,
+				C6B015B11B705494005D43CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B015851B705494005D43CD /* Project object */;
+}
