@@ -1184,10 +1184,10 @@
         <image name="About-TabBarIcon" width="30" height="30"/>
         <image name="About-bg" width="320" height="480"/>
         <image name="CountDown-TabBarIcon" width="30" height="30"/>
-        <image name="CountDown-bg" width="320" height="480"/>
+        <image name="CountDown-bg" width="768" height="1024"/>
         <image name="Events-TabBarIcon" width="30" height="30"/>
         <image name="Home-TabBarIcon" width="30" height="30"/>
-        <image name="Home-bg" width="320" height="480"/>
+        <image name="Home-bg" width="768" height="1024"/>
         <image name="Schedule-TabBarIcon" width="30" height="30"/>
         <image name="archery.gif" width="108" height="108"/>
     </resources>
