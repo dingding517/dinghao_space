@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61CDC481BB99EC90071BD45 /* breakfastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CDC471BB99EC90071BD45 /* breakfastViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C652777F1BAD1CC900CF74EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C652777E1BAD1CC900CF74EC /* main.m */; };
 		C65277821BAD1CC900CF74EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C65277811BAD1CC900CF74EC /* AppDelegate.m */; };
 		C65277881BAD1CC900CF74EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65277861BAD1CC900CF74EC /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C61CDC461BB99EC90071BD45 /* breakfastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = breakfastViewController.h; sourceTree = "<group>"; };
+		C61CDC471BB99EC90071BD45 /* breakfastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = breakfastViewController.m; sourceTree = "<group>"; };
 		C652777A1BAD1CC900CF74EC /* 外卖送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "外卖送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C652777E1BAD1CC900CF74EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C65277801BAD1CC900CF74EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				C697F0F61BB69A06003C12E6 /* Advertisement3.h */,
 				C697F0F71BB69A06003C12E6 /* Advertisement3.m */,
 				C65277861BAD1CC900CF74EC /* Main.storyboard */,
+				C61CDC461BB99EC90071BD45 /* breakfastViewController.h */,
+				C61CDC471BB99EC90071BD45 /* breakfastViewController.m */,
 				C65277891BAD1CC900CF74EC /* Assets.xcassets */,
 				C652778B1BAD1CC900CF74EC /* LaunchScreen.storyboard */,
 				C652777D1BAD1CC900CF74EC /* Supporting Files */,
@@ -390,6 +395,7 @@
 				C69126C51BAD4F2600E1C5D9 /* DBHelper.m in Sources */,
 				C69126DA1BAD53D600E1C5D9 /* Foods.m in Sources */,
 				C69126E01BAD57BD00E1C5D9 /* FoodsDAO.m in Sources */,
+				C61CDC481BB99EC90071BD45 /* breakfastViewController.m in Sources */,
 				C6AECAEB1BAEE34D00C1DC56 /* RootTabViewController.m in Sources */,
 				C65277821BAD1CC900CF74EC /* AppDelegate.m in Sources */,
 				C6AECAF71BAEF48000C1DC56 /* OrderViewController.m in Sources */,

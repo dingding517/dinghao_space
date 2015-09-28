@@ -604,10 +604,10 @@
             </objects>
             <point key="canvasLocation" x="1193" y="-2504"/>
         </scene>
-        <!--Root View Controller-->
+        <!--早餐-->
         <scene sceneID="zYN-zc-BCN">
             <objects>
-                <tableViewController id="PEs-cf-wup" sceneMemberID="viewController">
+                <tableViewController id="PEs-cf-wup" customClass="breakfastViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="QJF-gL-8ja">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -627,7 +627,13 @@
                             <outlet property="delegate" destination="PEs-cf-wup" id="LaV-sg-DVq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="7Q2-e0-g17"/>
+                    <navigationItem key="navigationItem" title="早餐" id="7Q2-e0-g17">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="jai-9v-zdp">
+                            <connections>
+                                <action selector="backAct:" destination="PEs-cf-wup" id="lZM-pV-Mst"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LLC-Bm-te9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -637,6 +643,7 @@
         <scene sceneID="HsC-BY-5Y5">
             <objects>
                 <navigationController id="cvb-F1-BdD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ECO-iu-fgn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MBz-3w-QB2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
