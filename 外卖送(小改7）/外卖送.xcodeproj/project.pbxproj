@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60469901BC3E56200C79EBF /* ZhenCanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C604698F1BC3E56200C79EBF /* ZhenCanTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C609705F1BC2B88B0059E814 /* Advertise1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C609705E1BC2B88B0059E814 /* Advertise1ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C60970621BC3D9B20059E814 /* Advertise2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60970611BC3D9B20059E814 /* Advertise2ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C60970651BC3DAF90059E814 /* Advertise3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60970641BC3DAF90059E814 /* Advertise3ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C61CDC481BB99EC90071BD45 /* breakfastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CDC471BB99EC90071BD45 /* breakfastViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C62793EC1BBFDD4900AC63B8 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62793EB1BBFDD4900AC63B8 /* Page1ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C652777F1BAD1CC900CF74EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C652777E1BAD1CC900CF74EC /* main.m */; };
+		C65277821BAD1CC900CF74EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C65277811BAD1CC900CF74EC /* AppDelegate.m */; };
+		C65277881BAD1CC900CF74EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C65277861BAD1CC900CF74EC /* Main.storyboard */; };
+		C652778A1BAD1CC900CF74EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65277891BAD1CC900CF74EC /* Assets.xcassets */; };
+		C652778D1BAD1CC900CF74EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C652778B1BAD1CC900CF74EC /* LaunchScreen.storyboard */; };
+		C65277951BAD1CE600CF74EC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C65277941BAD1CE600CF74EC /* libsqlite3.tbd */; };
+		C65277971BAD1D1800CF74EC /* createNew.sql in Resources */ = {isa = PBXBuildFile; fileRef = C65277961BAD1D1800CF74EC /* createNew.sql */; settings = {ASSET_TAGS = (); }; };
+		C66729D11BB7D58E00091751 /* Page11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66729D01BB7D58E00091751 /* Page11ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C69126A81BAD418600E1C5D9 /* 伴鸡伴虾堡沙拉套餐_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C691269C1BAD418600E1C5D9 /* 伴鸡伴虾堡沙拉套餐_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126A91BAD418600E1C5D9 /* 劲脆鸡腿堡_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C691269D1BAD418600E1C5D9 /* 劲脆鸡腿堡_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126AA1BAD418600E1C5D9 /* 劲脆鸡腿堡套餐_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C691269E1BAD418600E1C5D9 /* 劲脆鸡腿堡套餐_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126AB1BAD418600E1C5D9 /* 培根烤鸡腿堡_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C691269F1BAD418600E1C5D9 /* 培根烤鸡腿堡_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126AC1BAD418600E1C5D9 /* 手撕猪肉堡沙拉套餐_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C69126A01BAD418600E1C5D9 /* 手撕猪肉堡沙拉套餐_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126AD1BAD418600E1C5D9 /* 新奥尔良烤鸡腿堡_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C69126A11BAD418600E1C5D9 /* 新奥尔良烤鸡腿堡_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126AE1BAD418600E1C5D9 /* 香辣鸡腿堡_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C69126A21BAD418600E1C5D9 /* 香辣鸡腿堡_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126AF1BAD418600E1C5D9 /* 香辣鸡腿堡套餐_结果.gif in Resources */ = {isa = PBXBuildFile; fileRef = C69126A31BAD418600E1C5D9 /* 香辣鸡腿堡套餐_结果.gif */; settings = {ASSET_TAGS = (); }; };
+		C69126B11BAD4B6C00E1C5D9 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69126B01BAD4B6C00E1C5D9 /* DBConfig.plist */; settings = {ASSET_TAGS = (); }; };
+		C69126C41BAD4F2600E1C5D9 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C69126B71BAD4F2600E1C5D9 /* BaseDAO.m */; settings = {ASSET_TAGS = (); }; };
+		C69126C51BAD4F2600E1C5D9 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C69126B91BAD4F2600E1C5D9 /* DBHelper.m */; settings = {ASSET_TAGS = (); }; };
+		C69126D71BAD539800E1C5D9 /* FoodsBL.m in Sources */ = {isa = PBXBuildFile; fileRef = C69126D61BAD539800E1C5D9 /* FoodsBL.m */; settings = {ASSET_TAGS = (); }; };
+		C69126DA1BAD53D600E1C5D9 /* Foods.m in Sources */ = {isa = PBXBuildFile; fileRef = C69126D91BAD53D600E1C5D9 /* Foods.m */; settings = {ASSET_TAGS = (); }; };
+		C69126E01BAD57BD00E1C5D9 /* FoodsDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C69126DF1BAD57BD00E1C5D9 /* FoodsDAO.m */; settings = {ASSET_TAGS = (); }; };
+		C6AECAEB1BAEE34D00C1DC56 /* RootTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AECAEA1BAEE34D00C1DC56 /* RootTabViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6AECAEE1BAEF3BE00C1DC56 /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AECAED1BAEF3BE00C1DC56 /* FirstPageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6AECAF11BAEF40A00C1DC56 /* ReBangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AECAF01BAEF40A00C1DC56 /* ReBangViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6AECAF41BAEF44600C1DC56 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AECAF31BAEF44600C1DC56 /* ShoppingCartViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6AECAF71BAEF48000C1DC56 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AECAF61BAEF48000C1DC56 /* OrderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6AECAFA1BAEF49D00C1DC56 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AECAF91BAEF49D00C1DC56 /* MyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6DFC5451BB3AAC8001251E3 /* 肯德基ShopPic.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DFC5441BB3AAC8001251E3 /* 肯德基ShopPic.png */; settings = {ASSET_TAGS = (); }; };
+		C6DFC54A1BB3CEF8001251E3 /* scroll1.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6DFC5471BB3CEF8001251E3 /* scroll1.gif */; settings = {ASSET_TAGS = (); }; };
+		C6DFC54B1BB3CEF8001251E3 /* scroll2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DFC5481BB3CEF8001251E3 /* scroll2.png */; settings = {ASSET_TAGS = (); }; };
+		C6DFC54C1BB3CEF8001251E3 /* scroll3.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DFC5491BB3CEF8001251E3 /* scroll3.png */; settings = {ASSET_TAGS = (); }; };
+		C6FF8C721BBCC90B003D9E9A /* Page33ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF8C711BBCC90B003D9E9A /* Page33ViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C604698E1BC3E56200C79EBF /* ZhenCanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhenCanTableViewController.h; sourceTree = "<group>"; };
+		C604698F1BC3E56200C79EBF /* ZhenCanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhenCanTableViewController.m; sourceTree = "<group>"; };
+		C609705D1BC2B88B0059E814 /* Advertise1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advertise1ViewController.h; sourceTree = "<group>"; };
+		C609705E1BC2B88B0059E814 /* Advertise1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advertise1ViewController.m; sourceTree = "<group>"; };
+		C60970601BC3D9B20059E814 /* Advertise2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advertise2ViewController.h; sourceTree = "<group>"; };
+		C60970611BC3D9B20059E814 /* Advertise2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advertise2ViewController.m; sourceTree = "<group>"; };
+		C60970631BC3DAF90059E814 /* Advertise3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advertise3ViewController.h; sourceTree = "<group>"; };
+		C60970641BC3DAF90059E814 /* Advertise3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advertise3ViewController.m; sourceTree = "<group>"; };
+		C61CDC461BB99EC90071BD45 /* breakfastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = breakfastViewController.h; sourceTree = "<group>"; };
+		C61CDC471BB99EC90071BD45 /* breakfastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = breakfastViewController.m; sourceTree = "<group>"; };
+		C62793EA1BBFDD4900AC63B8 /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
+		C62793EB1BBFDD4900AC63B8 /* Page1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
+		C652777A1BAD1CC900CF74EC /* 外卖送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "外卖送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C652777E1BAD1CC900CF74EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C65277801BAD1CC900CF74EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C65277811BAD1CC900CF74EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C65277871BAD1CC900CF74EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65277891BAD1CC900CF74EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C652778C1BAD1CC900CF74EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C652778E1BAD1CC900CF74EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65277941BAD1CE600CF74EC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C65277961BAD1D1800CF74EC /* createNew.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createNew.sql; sourceTree = "<group>"; };
+		C66729CF1BB7D58E00091751 /* Page11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page11ViewController.h; sourceTree = "<group>"; };
+		C66729D01BB7D58E00091751 /* Page11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page11ViewController.m; sourceTree = "<group>"; };
+		C691269C1BAD418600E1C5D9 /* 伴鸡伴虾堡沙拉套餐_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "伴鸡伴虾堡沙拉套餐_结果.gif"; sourceTree = "<group>"; };
+		C691269D1BAD418600E1C5D9 /* 劲脆鸡腿堡_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "劲脆鸡腿堡_结果.gif"; sourceTree = "<group>"; };
+		C691269E1BAD418600E1C5D9 /* 劲脆鸡腿堡套餐_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "劲脆鸡腿堡套餐_结果.gif"; sourceTree = "<group>"; };
+		C691269F1BAD418600E1C5D9 /* 培根烤鸡腿堡_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "培根烤鸡腿堡_结果.gif"; sourceTree = "<group>"; };
+		C69126A01BAD418600E1C5D9 /* 手撕猪肉堡沙拉套餐_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "手撕猪肉堡沙拉套餐_结果.gif"; sourceTree = "<group>"; };
+		C69126A11BAD418600E1C5D9 /* 新奥尔良烤鸡腿堡_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "新奥尔良烤鸡腿堡_结果.gif"; sourceTree = "<group>"; };
+		C69126A21BAD418600E1C5D9 /* 香辣鸡腿堡_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "香辣鸡腿堡_结果.gif"; sourceTree = "<group>"; };
+		C69126A31BAD418600E1C5D9 /* 香辣鸡腿堡套餐_结果.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "香辣鸡腿堡套餐_结果.gif"; sourceTree = "<group>"; };
+		C69126B01BAD4B6C00E1C5D9 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		C69126B61BAD4F2600E1C5D9 /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO.h; sourceTree = "<group>"; };
+		C69126B71BAD4F2600E1C5D9 /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO.m; sourceTree = "<group>"; };
+		C69126B81BAD4F2600E1C5D9 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		C69126B91BAD4F2600E1C5D9 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		C69126D41BAD519600E1C5D9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		C69126D51BAD539800E1C5D9 /* FoodsBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodsBL.h; sourceTree = "<group>"; };
+		C69126D61BAD539800E1C5D9 /* FoodsBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodsBL.m; sourceTree = "<group>"; };
+		C69126D81BAD53D600E1C5D9 /* Foods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foods.h; sourceTree = "<group>"; };
+		C69126D91BAD53D600E1C5D9 /* Foods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foods.m; sourceTree = "<group>"; };
+		C69126DE1BAD57BD00E1C5D9 /* FoodsDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodsDAO.h; sourceTree = "<group>"; };
+		C69126DF1BAD57BD00E1C5D9 /* FoodsDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodsDAO.m; sourceTree = "<group>"; };
+		C6AECAE91BAEE34D00C1DC56 /* RootTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabViewController.h; sourceTree = "<group>"; };
+		C6AECAEA1BAEE34D00C1DC56 /* RootTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabViewController.m; sourceTree = "<group>"; };
+		C6AECAEC1BAEF3BE00C1DC56 /* FirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		C6AECAED1BAEF3BE00C1DC56 /* FirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		C6AECAEF1BAEF40A00C1DC56 /* ReBangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReBangViewController.h; sourceTree = "<group>"; };
+		C6AECAF01BAEF40A00C1DC56 /* ReBangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReBangViewController.m; sourceTree = "<group>"; };
+		C6AECAF21BAEF44600C1DC56 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		C6AECAF31BAEF44600C1DC56 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		C6AECAF51BAEF48000C1DC56 /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		C6AECAF61BAEF48000C1DC56 /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		C6AECAF81BAEF49D00C1DC56 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		C6AECAF91BAEF49D00C1DC56 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		C6DFC5441BB3AAC8001251E3 /* 肯德基ShopPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "肯德基ShopPic.png"; sourceTree = "<group>"; };
+		C6DFC5471BB3CEF8001251E3 /* scroll1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scroll1.gif; sourceTree = "<group>"; };
+		C6DFC5481BB3CEF8001251E3 /* scroll2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll2.png; sourceTree = "<group>"; };
+		C6DFC5491BB3CEF8001251E3 /* scroll3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll3.png; sourceTree = "<group>"; };
+		C6FF8C701BBCC90B003D9E9A /* Page33ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page33ViewController.h; sourceTree = "<group>"; };
+		C6FF8C711BBCC90B003D9E9A /* Page33ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page33ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65277771BAD1CC800CF74EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65277951BAD1CE600CF74EC /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C65277711BAD1CC800CF74EC = {
+			isa = PBXGroup;
+			children = (
+				C65277941BAD1CE600CF74EC /* libsqlite3.tbd */,
+				C69126B21BAD4E1100E1C5D9 /* DB_File */,
+				C652777C1BAD1CC900CF74EC /* 外卖送 */,
+				C652777B1BAD1CC900CF74EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C652777B1BAD1CC900CF74EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C652777A1BAD1CC900CF74EC /* 外卖送.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C652777C1BAD1CC900CF74EC /* 外卖送 */ = {
+			isa = PBXGroup;
+			children = (
+				C69126B51BAD4F2600E1C5D9 /* PersistenceLayer */,
+				C69126CB1BAD4F5800E1C5D9 /* BusinessLogicLayer */,
+				C69126971BAD418600E1C5D9 /* 外卖送图片 */,
+				C65277801BAD1CC900CF74EC /* AppDelegate.h */,
+				C65277811BAD1CC900CF74EC /* AppDelegate.m */,
+				C6AECAE91BAEE34D00C1DC56 /* RootTabViewController.h */,
+				C6AECAEA1BAEE34D00C1DC56 /* RootTabViewController.m */,
+				C6AECAEC1BAEF3BE00C1DC56 /* FirstPageViewController.h */,
+				C6AECAED1BAEF3BE00C1DC56 /* FirstPageViewController.m */,
+				C6AECAEF1BAEF40A00C1DC56 /* ReBangViewController.h */,
+				C6AECAF01BAEF40A00C1DC56 /* ReBangViewController.m */,
+				C6AECAF21BAEF44600C1DC56 /* ShoppingCartViewController.h */,
+				C6AECAF31BAEF44600C1DC56 /* ShoppingCartViewController.m */,
+				C6AECAF51BAEF48000C1DC56 /* OrderViewController.h */,
+				C6AECAF61BAEF48000C1DC56 /* OrderViewController.m */,
+				C6AECAF81BAEF49D00C1DC56 /* MyViewController.h */,
+				C6AECAF91BAEF49D00C1DC56 /* MyViewController.m */,
+				C62793EA1BBFDD4900AC63B8 /* Page1ViewController.h */,
+				C62793EB1BBFDD4900AC63B8 /* Page1ViewController.m */,
+				C66729CF1BB7D58E00091751 /* Page11ViewController.h */,
+				C66729D01BB7D58E00091751 /* Page11ViewController.m */,
+				C609705D1BC2B88B0059E814 /* Advertise1ViewController.h */,
+				C609705E1BC2B88B0059E814 /* Advertise1ViewController.m */,
+				C60970601BC3D9B20059E814 /* Advertise2ViewController.h */,
+				C60970611BC3D9B20059E814 /* Advertise2ViewController.m */,
+				C60970631BC3DAF90059E814 /* Advertise3ViewController.h */,
+				C60970641BC3DAF90059E814 /* Advertise3ViewController.m */,
+				C6FF8C701BBCC90B003D9E9A /* Page33ViewController.h */,
+				C6FF8C711BBCC90B003D9E9A /* Page33ViewController.m */,
+				C61CDC461BB99EC90071BD45 /* breakfastViewController.h */,
+				C61CDC471BB99EC90071BD45 /* breakfastViewController.m */,
+				C604698E1BC3E56200C79EBF /* ZhenCanTableViewController.h */,
+				C604698F1BC3E56200C79EBF /* ZhenCanTableViewController.m */,
+				C65277891BAD1CC900CF74EC /* Assets.xcassets */,
+				C652778B1BAD1CC900CF74EC /* LaunchScreen.storyboard */,
+				C65277861BAD1CC900CF74EC /* Main.storyboard */,
+				C652777D1BAD1CC900CF74EC /* Supporting Files */,
+			);
+			path = "外卖送";
+			sourceTree = "<group>";
+		};
+		C652777D1BAD1CC900CF74EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C69126D41BAD519600E1C5D9 /* PrefixHeader.pch */,
+				C652778E1BAD1CC900CF74EC /* Info.plist */,
+				C652777E1BAD1CC900CF74EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C69126971BAD418600E1C5D9 /* 外卖送图片 */ = {
+			isa = PBXGroup;
+			children = (
+				C6DFC5461BB3CEF8001251E3 /* FirstScrollPic */,
+				C6DFC5431BB3AAC8001251E3 /* ShopPics */,
+				C69126981BAD418600E1C5D9 /* 商超 */,
+				C69126991BAD418600E1C5D9 /* 小吃零食 */,
+				C691269A1BAD418600E1C5D9 /* 快餐类 */,
+				C69126A41BAD418600E1C5D9 /* 果蔬生鲜 */,
+				C69126A51BAD418600E1C5D9 /* 正餐类 */,
+				C69126A61BAD418600E1C5D9 /* 甜品饮品 */,
+				C69126A71BAD418600E1C5D9 /* 鲜花蛋糕 */,
+			);
+			path = "外卖送图片";
+			sourceTree = "<group>";
+		};
+		C69126981BAD418600E1C5D9 /* 商超 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "商超";
+			sourceTree = "<group>";
+		};
+		C69126991BAD418600E1C5D9 /* 小吃零食 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "小吃零食";
+			sourceTree = "<group>";
+		};
+		C691269A1BAD418600E1C5D9 /* 快餐类 */ = {
+			isa = PBXGroup;
+			children = (
+				C691269B1BAD418600E1C5D9 /* 肯德基 */,
+			);
+			path = "快餐类";
+			sourceTree = "<group>";
+		};
+		C691269B1BAD418600E1C5D9 /* 肯德基 */ = {
+			isa = PBXGroup;
+			children = (
+				C691269C1BAD418600E1C5D9 /* 伴鸡伴虾堡沙拉套餐_结果.gif */,
+				C691269D1BAD418600E1C5D9 /* 劲脆鸡腿堡_结果.gif */,
+				C691269E1BAD418600E1C5D9 /* 劲脆鸡腿堡套餐_结果.gif */,
+				C691269F1BAD418600E1C5D9 /* 培根烤鸡腿堡_结果.gif */,
+				C69126A01BAD418600E1C5D9 /* 手撕猪肉堡沙拉套餐_结果.gif */,
+				C69126A11BAD418600E1C5D9 /* 新奥尔良烤鸡腿堡_结果.gif */,
+				C69126A21BAD418600E1C5D9 /* 香辣鸡腿堡_结果.gif */,
+				C69126A31BAD418600E1C5D9 /* 香辣鸡腿堡套餐_结果.gif */,
+			);
+			path = "肯德基";
+			sourceTree = "<group>";
+		};
+		C69126A41BAD418600E1C5D9 /* 果蔬生鲜 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "果蔬生鲜";
+			sourceTree = "<group>";
+		};
+		C69126A51BAD418600E1C5D9 /* 正餐类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "正餐类";
+			sourceTree = "<group>";
+		};
+		C69126A61BAD418600E1C5D9 /* 甜品饮品 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "甜品饮品";
+			sourceTree = "<group>";
+		};
+		C69126A71BAD418600E1C5D9 /* 鲜花蛋糕 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "鲜花蛋糕";
+			sourceTree = "<group>";
+		};
+		C69126B21BAD4E1100E1C5D9 /* DB_File */ = {
+			isa = PBXGroup;
+			children = (
+				C69126B01BAD4B6C00E1C5D9 /* DBConfig.plist */,
+				C65277961BAD1D1800CF74EC /* createNew.sql */,
+			);
+			name = DB_File;
+			sourceTree = "<group>";
+		};
+		C69126B51BAD4F2600E1C5D9 /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C69126B61BAD4F2600E1C5D9 /* BaseDAO.h */,
+				C69126B71BAD4F2600E1C5D9 /* BaseDAO.m */,
+				C69126B81BAD4F2600E1C5D9 /* DBHelper.h */,
+				C69126B91BAD4F2600E1C5D9 /* DBHelper.m */,
+				C69126D81BAD53D600E1C5D9 /* Foods.h */,
+				C69126D91BAD53D600E1C5D9 /* Foods.m */,
+				C69126DE1BAD57BD00E1C5D9 /* FoodsDAO.h */,
+				C69126DF1BAD57BD00E1C5D9 /* FoodsDAO.m */,
+			);
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		C69126CB1BAD4F5800E1C5D9 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C69126D51BAD539800E1C5D9 /* FoodsBL.h */,
+				C69126D61BAD539800E1C5D9 /* FoodsBL.m */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		C6DFC5431BB3AAC8001251E3 /* ShopPics */ = {
+			isa = PBXGroup;
+			children = (
+				C6DFC5441BB3AAC8001251E3 /* 肯德基ShopPic.png */,
+			);
+			path = ShopPics;
+			sourceTree = "<group>";
+		};
+		C6DFC5461BB3CEF8001251E3 /* FirstScrollPic */ = {
+			isa = PBXGroup;
+			children = (
+				C6DFC5471BB3CEF8001251E3 /* scroll1.gif */,
+				C6DFC5481BB3CEF8001251E3 /* scroll2.png */,
+				C6DFC5491BB3CEF8001251E3 /* scroll3.png */,
+			);
+			path = FirstScrollPic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65277791BAD1CC800CF74EC /* 外卖送 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65277911BAD1CC900CF74EC /* Build configuration list for PBXNativeTarget "外卖送" */;
+			buildPhases = (
+				C65277761BAD1CC800CF74EC /* Sources */,
+				C65277771BAD1CC800CF74EC /* Frameworks */,
+				C65277781BAD1CC800CF74EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "外卖送";
+			productName = "外卖送";
+			productReference = C652777A1BAD1CC900CF74EC /* 外卖送.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65277721BAD1CC800CF74EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = dinghao;
+				TargetAttributes = {
+					C65277791BAD1CC800CF74EC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 87YNX76962;
+					};
+				};
+			};
+			buildConfigurationList = C65277751BAD1CC800CF74EC /* Build configuration list for PBXProject "外卖送" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C65277711BAD1CC800CF74EC;
+			productRefGroup = C652777B1BAD1CC900CF74EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65277791BAD1CC800CF74EC /* 外卖送 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65277781BAD1CC800CF74EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DFC54A1BB3CEF8001251E3 /* scroll1.gif in Resources */,
+				C69126AF1BAD418600E1C5D9 /* 香辣鸡腿堡套餐_结果.gif in Resources */,
+				C69126A81BAD418600E1C5D9 /* 伴鸡伴虾堡沙拉套餐_结果.gif in Resources */,
+				C69126A91BAD418600E1C5D9 /* 劲脆鸡腿堡_结果.gif in Resources */,
+				C652778D1BAD1CC900CF74EC /* LaunchScreen.storyboard in Resources */,
+				C69126AC1BAD418600E1C5D9 /* 手撕猪肉堡沙拉套餐_结果.gif in Resources */,
+				C69126AE1BAD418600E1C5D9 /* 香辣鸡腿堡_结果.gif in Resources */,
+				C65277971BAD1D1800CF74EC /* createNew.sql in Resources */,
+				C69126AA1BAD418600E1C5D9 /* 劲脆鸡腿堡套餐_结果.gif in Resources */,
+				C69126AD1BAD418600E1C5D9 /* 新奥尔良烤鸡腿堡_结果.gif in Resources */,
+				C6DFC5451BB3AAC8001251E3 /* 肯德基ShopPic.png in Resources */,
+				C69126B11BAD4B6C00E1C5D9 /* DBConfig.plist in Resources */,
+				C652778A1BAD1CC900CF74EC /* Assets.xcassets in Resources */,
+				C69126AB1BAD418600E1C5D9 /* 培根烤鸡腿堡_结果.gif in Resources */,
+				C65277881BAD1CC900CF74EC /* Main.storyboard in Resources */,
+				C6DFC54C1BB3CEF8001251E3 /* scroll3.png in Resources */,
+				C6DFC54B1BB3CEF8001251E3 /* scroll2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65277761BAD1CC800CF74EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66729D11BB7D58E00091751 /* Page11ViewController.m in Sources */,
+				C60970621BC3D9B20059E814 /* Advertise2ViewController.m in Sources */,
+				C69126D71BAD539800E1C5D9 /* FoodsBL.m in Sources */,
+				C6AECAF11BAEF40A00C1DC56 /* ReBangViewController.m in Sources */,
+				C69126C51BAD4F2600E1C5D9 /* DBHelper.m in Sources */,
+				C69126DA1BAD53D600E1C5D9 /* Foods.m in Sources */,
+				C60970651BC3DAF90059E814 /* Advertise3ViewController.m in Sources */,
+				C69126E01BAD57BD00E1C5D9 /* FoodsDAO.m in Sources */,
+				C61CDC481BB99EC90071BD45 /* breakfastViewController.m in Sources */,
+				C6AECAEB1BAEE34D00C1DC56 /* RootTabViewController.m in Sources */,
+				C65277821BAD1CC900CF74EC /* AppDelegate.m in Sources */,
+				C6AECAF71BAEF48000C1DC56 /* OrderViewController.m in Sources */,
+				C609705F1BC2B88B0059E814 /* Advertise1ViewController.m in Sources */,
+				C60469901BC3E56200C79EBF /* ZhenCanTableViewController.m in Sources */,
+				C6FF8C721BBCC90B003D9E9A /* Page33ViewController.m in Sources */,
+				C652777F1BAD1CC900CF74EC /* main.m in Sources */,
+				C6AECAF41BAEF44600C1DC56 /* ShoppingCartViewController.m in Sources */,
+				C69126C41BAD4F2600E1C5D9 /* BaseDAO.m in Sources */,
+				C6AECAEE1BAEF3BE00C1DC56 /* FirstPageViewController.m in Sources */,
+				C6AECAFA1BAEF49D00C1DC56 /* MyViewController.m in Sources */,
+				C62793EC1BBFDD4900AC63B8 /* Page1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C65277861BAD1CC900CF74EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65277871BAD1CC900CF74EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C652778B1BAD1CC900CF74EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C652778C1BAD1CC900CF74EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C652778F1BAD1CC900CF74EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65277901BAD1CC900CF74EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65277921BAD1CC900CF74EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "外卖送/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dinghao.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65277931BAD1CC900CF74EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "外卖送/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dinghao.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65277751BAD1CC800CF74EC /* Build configuration list for PBXProject "外卖送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C652778F1BAD1CC900CF74EC /* Debug */,
+				C65277901BAD1CC900CF74EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65277911BAD1CC900CF74EC /* Build configuration list for PBXNativeTarget "外卖送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65277921BAD1CC900CF74EC /* Debug */,
+				C65277931BAD1CC900CF74EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C65277721BAD1CC800CF74EC /* Project object */;
+}
